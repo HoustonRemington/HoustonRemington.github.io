@@ -1,6 +1,10 @@
   @import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+  @font-face {
+    font-family: Montserrat Bold;
+    src: url(/media/Montserrat-Bold.ttf);
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap')
+  } 
   
   body {
   margin: 0px;
@@ -22,6 +26,7 @@
    background: url(/images/Navbar/BG-01.svg);
    background-size: cover;
    background-position: center;
+   opacity: 1;
    z-index: 2;
   }
   
@@ -35,7 +40,8 @@
   font-weight : 700;
   font-size : 1rem;
   color: azure;
-  text-decoration: none;
+  text-decoration: none; 
+  user-select: none;
   }
 
   .navlinks:hover {
@@ -69,6 +75,12 @@
     z-index: -1;
   }
 
+  .bannercon img {
+    position: fixed;
+    height: auto;
+    z-index: -2;
+  }
+
   .logo {
     position: fixed;
     float: left;
@@ -77,6 +89,29 @@
     z-index: 2;
     width: 5vw;
     z-index: 3;
+    user-select: none;
+  }
+
+  .logo:hover {
+    animation-name: anim-logo;
+    animation-duration: 0.5s;
+    animation-delay: 0ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes anim-logo {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
   }
 
   .bannertext1 {
@@ -107,12 +142,7 @@
       height: 4rem;
       text-align: right;
       overflow: hidden;
-    }
-
-    .bannertext span {
-      display: inline-block;
-      line-height: 4.4;
-      display: none; 
+      user-select: none;
     }
 
     .lineup {
