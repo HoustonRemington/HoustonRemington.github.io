@@ -1,0 +1,173 @@
+  @import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+
+  @font-face {
+    font-family: MontserratBold;
+    src: url(/media/Montserrat-Bold.ttf);
+  }
+  
+  body {
+  margin: 0px;
+  padding: 0;
+  } 
+
+  html {
+   margin: 0px;
+   padding: 0;
+   font-size: 16px;
+   scroll-behavior: smooth;
+  }
+
+  .nav {
+   position: fixed;
+   float: left;
+   width: 100%;
+   height: auto;
+   background: url(/images/Navbar/BG-01.svg);
+   background-size: cover;
+   background-position: center;
+   z-index: 2;
+  }
+  
+  .navlinks {
+  position: relative;
+  float: right;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  margin-right: 9.2vw;
+  font-family: Karla;
+  font-weight : 700;
+  font-size : 1rem;
+  color: azure;
+  text-decoration: none;
+  }
+
+  .navlinks:hover {
+  color: #EB3B5A;
+  }
+
+  .navlinks:hover::after {
+    width: 100%;
+    }
+
+  .navlinks::after {
+    content: '';
+    height: 0.2vw;
+    width: 0%;
+    position: absolute;
+    background: #EB3B5A;
+    left: 0;
+    bottom: -0.7vw;
+    transition: 0.5s;
+  }
+
+  .bannercon {
+   position: relative;
+  }
+
+  .bannercon video {
+    position: fixed;
+    margin-top: -4vw;
+    max-width: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .logo {
+    position: fixed;
+    float: left;
+    margin-left: 5vw;
+    margin-top: 2.3vw;
+    z-index: 2;
+    width: 5vw;
+    z-index: 3;
+  }
+
+  .bannertext1 {
+    float: right;
+    color: #EB3B5A;
+    }
+
+  .bannertext2 {
+    float: right;
+    margin-right: 9.2vw;
+    margin-left: 1.7vw;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #EB3B5A;
+    overflow: hidden;
+    }
+
+    .bannertext {
+      width: 100%;
+      float: right;
+      position: absolute;
+      font-family: Montserrat;
+      font-weight : 700;
+      font-size : 4rem;
+      margin-top: 13vw;
+      text-decoration: none;
+      z-index: 1;
+      height: 4rem;
+      text-align: right;
+      overflow: hidden;
+    }
+
+    .bannertext span {
+      display: inline-block;
+      line-height: 4.4;
+      display: none; 
+    }
+
+    .lineup {
+      animation-name: anim-textin;
+      animation-duration: 8s;
+      animation-delay: 0ms;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes anim-textin {
+      0% {
+        transform: translateY(100%);
+      }
+
+      11% {
+        transform: translateY(0%);
+      }
+
+      22% {
+        transform: translateY(0%);
+      }
+
+      33% {
+        transform: translateY(-100%);
+      }
+
+      44% {
+        transform: translateY(-100%);
+      }
+
+      55% {
+        transform: translateY(-200%);
+      }
+
+      66% {
+        transform: translateY(-200%);
+      }
+
+      77% {
+        transform: translateY(-300%);
+      }
+
+      88% {
+        transform: translateY(-300%);
+      }
+
+      99% {
+        transform: translateY(-400%);
+      }
+
+      100% {
+        transform: translateY(-400%);
+      }
+    }
