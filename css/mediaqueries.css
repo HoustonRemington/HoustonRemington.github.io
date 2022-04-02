@@ -16,7 +16,7 @@
    }
 
    .bannercon video {
-    position: absolute;
+    position: relative;
     overflow: hidden;
     z-index: -1;
     margin: 0 auto;
