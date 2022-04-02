@@ -16,7 +16,7 @@
    }
 
    .bannercon video {
-    position: absolute;
+    position: relative;
     overflow: hidden;
     z-index: -1;
     margin: 0 auto;
@@ -30,14 +30,17 @@
     font-family: Montserrat;
     font-weight : 700;
     font-size : 2rem;
-    margin-top: 15%;
+    margin-top: 0%;
+    padding-top: 5%;
     text-decoration: none;
     z-index: 1;
     height: auto;
-    text-align: right;
+    text-align: center;
     user-select: none;
-    padding-top: auto;
-    padding-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #211c31;
+    
   }
 
   .bannertext2 {
@@ -45,8 +48,11 @@
   }
 
   .bannertext1 {
+    float: none;
+    text-align: center;
     height: 2rem;
     overflow: hidden;
+    margin-bottom: 2.5vw;
     }
 
   .bannertext2alt {
