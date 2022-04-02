@@ -152,6 +152,15 @@ input[type=checkbox]{
     overflow: hidden;
     }
 
+  .bannertext2alt {
+    position: relative;
+    float: right;
+    color: #EB3B5A;
+    width: 100%;
+    display: none;
+    height: 1rem;
+    }
+
   .bannerbutton {
     position: relative;
     float: right;
@@ -188,8 +197,8 @@ input[type=checkbox]{
       font-size : 4rem;
       margin-top: 13vw;
       text-decoration: none;
-      z-index: 1;
       height: 4rem;
+      z-index: 1;
       text-align: right;
       overflow: hidden;
       user-select: none;
