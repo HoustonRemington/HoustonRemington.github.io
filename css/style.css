@@ -9,6 +9,7 @@
   body {
   margin: 0px;
   padding: 0;
+  height: 1000px;
   } 
 
   html {
@@ -39,7 +40,7 @@
   font-family: Karla;
   font-weight : 700;
   font-size : 1rem;
-  color: azure;
+  color: #E1E1E1;
   text-decoration: none; 
   user-select: none;
   }
@@ -68,7 +69,7 @@
   }
 
   .bannercon video {
-    position: fixed;
+    position: absolute;
     margin-top: -4vw;
     max-width: 100%;
     overflow: hidden;
@@ -129,10 +130,37 @@
     overflow: hidden;
     }
 
+  .bannerbutton {
+    position: relative;
+    float: right;
+    border: none;
+    margin-top: 60px;
+    margin-right: 9.2vw;
+    padding-left: 3.9vw;
+    padding-right: 3.9vw;
+    padding-top: 1.4vw;
+    padding-bottom: 1.4vw;
+    background-image: url(/images/Banner/Button-01.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Montserrat;
+    font-weight : 700;
+    font-size : 1rem;
+    color: #E1E1E1;
+    user-select: none;
+    text-decoration: none;
+  }
+
+  .bannerbutton:hover {
+    transition: 0.5s;
+    background-image: url(/images/Banner/Button-02-01.svg);
+    color: #10052D; 
+  }
+
     .bannertext {
       width: 100%;
       float: right;
-      position: absolute;
+      position: relative;
       font-family: Montserrat;
       font-weight : 700;
       font-size : 4rem;
