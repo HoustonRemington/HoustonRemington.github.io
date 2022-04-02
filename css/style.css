@@ -75,13 +75,6 @@
     z-index: -1;
   }
 
-  .bannercon img {
-    position: absolute;
-    z-index: -2;
-    max-width: 100%;
-    width: ;
-  }
-
   .logo {
     position: fixed;
     float: left;
