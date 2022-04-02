@@ -9,7 +9,6 @@
   body {
   margin: 0px;
   padding: 0;
-  height: 1000px;
   } 
 
   html {
@@ -77,9 +76,10 @@
   }
 
   .bannercon img {
-    position: fixed;
-    height: auto;
+    position: absolute;
     z-index: -2;
+    max-width: 100%;
+    width: ;
   }
 
   .logo {
@@ -153,8 +153,8 @@
 
   .bannerbutton:hover {
     transition: 0.5s;
+    color: #10052D;
     background-image: url(/images/Banner/Button-02-01.svg);
-    color: #10052D; 
   }
 
     .bannertext {
