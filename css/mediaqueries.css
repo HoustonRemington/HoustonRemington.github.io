@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+
+  input[type=checkbox]:checked ~ .nav{
+    display: block;
+  }
+
+   .hamburger {
+    display: block;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+   }
+
+   .logo {
+    display: none;
+   }
+
+   .bannercon video {
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+    margin: 0 auto;
+    width: 100%;
+  }
+ }
