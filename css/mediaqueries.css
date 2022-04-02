@@ -1,5 +1,7 @@
 @media (max-width: 768px) {
 
+/* NAVBAR */
+
   input[type=checkbox]:checked ~ .nav{
     display: block;
   }
@@ -11,14 +13,20 @@
     margin-bottom: auto;
    }
 
-   .logo {
+ /* BANNER */  
+ 
+  .logo {
     display: none;
+   }
+
+   .bannercon {
+    background-color: #211c31;
    }
 
    .bannercon video {
     position: relative;
     overflow: hidden;
-    z-index: -1;
+    z-index: 1;
     margin: 0 auto;
     width: 100%;
   }
@@ -32,6 +40,7 @@
     font-size : 2rem;
     margin-top: 0%;
     padding-top: 5%;
+    padding-bottom: 5%;
     text-decoration: none;
     z-index: 1;
     height: auto;
@@ -43,10 +52,6 @@
     
   }
 
-  .bannertext2 {
-  display: none;
-  }
-
   .bannertext1 {
     float: none;
     text-align: center;
@@ -55,9 +60,27 @@
     margin-bottom: 2.5vw;
     }
 
+  .bannertext2 {
+  display: none;
+  }
+
   .bannertext2alt {
   display: block;
   height: 2rem;
+    }
+
+  .bannerbutton {
+    position: relative;
+    float: left;
+    text-align: center;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
+    padding-top: 1.4vw;
+    padding-bottom: 1.4vw;
+    font-weight : 700;
+    font-size : 1rem;
     }
 
  }

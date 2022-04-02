@@ -19,6 +19,8 @@
    scroll-behavior: smooth;
   }
 
+/* Navbar */
+
   .nav {
    position: fixed;
    float: right;
@@ -63,26 +65,26 @@
   }
 
   .navlinks:hover::after {
-    width: 100%;
-    }
-
-  .navlinks::after {
-    content: '';
-    height: 0.2vw;
-    width: 0%;
-    position: absolute;
-    background: #EB3B5A;
-    left: 0;
-    bottom: -0.7vw;
-    transition: 0.5s;
+  width: 100%;
   }
 
-  /* CHECKBOX HACK */
+  .navlinks::after {
+  content: '';
+  height: 0.2vw;
+  width: 0%;
+  position: absolute;
+  background: #EB3B5A;
+  left: 0;
+  bottom: -0.7vw;
+  transition: 0.5s;
+  }
+
+/* Collapse */
+
 input[type=checkbox]{
   display: none;
  } 
 
- /*HAMBURGER MENU*/
  .hamburger {
   display: none;
   font-size: 24px;
@@ -90,6 +92,8 @@ input[type=checkbox]{
   color: #fff;
   text-align: center;
  }
+
+  /* Banner */
 
 
   .bannercon {
@@ -135,6 +139,22 @@ input[type=checkbox]{
     100% {
       transform: scale(1);
     }
+  }
+
+  .bannertext {
+    width: 100%;
+    float: right;
+    position: relative;
+    font-family: Montserrat;
+    font-weight : 700;
+    font-size : 4rem;
+    margin-top: 13vw;
+    text-decoration: none;
+    height: 4rem;
+    z-index: 1;
+    text-align: right;
+    overflow: hidden;
+    user-select: none;
   }
 
   .bannertext1 {
@@ -188,23 +208,7 @@ input[type=checkbox]{
     background-image: url(/images/Banner/Button-02-01.svg);
   }
 
-    .bannertext {
-      width: 100%;
-      float: right;
-      position: relative;
-      font-family: Montserrat;
-      font-weight : 700;
-      font-size : 4rem;
-      margin-top: 13vw;
-      text-decoration: none;
-      height: 4rem;
-      z-index: 1;
-      text-align: right;
-      overflow: hidden;
-      user-select: none;
-    }
-
-    .lineup {
+  .lineup {
       animation-name: anim-textin;
       animation-duration: 8s;
       animation-delay: 0ms;
