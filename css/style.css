@@ -102,7 +102,6 @@ input[type=checkbox]{
 
   .bannercon video {
     position: absolute;
-    margin-top: -4vw;
     max-width: 100%;
     overflow: hidden;
     z-index: -1;
