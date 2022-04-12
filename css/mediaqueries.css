@@ -24,7 +24,7 @@
    }
 
    .bannercon video {
-    position: relative;
+    position: absolute;
     overflow: hidden;
     z-index: 1;
     margin: 0 auto;
@@ -48,13 +48,12 @@
     user-select: none;
     margin-left: auto;
     margin-right: auto;
-    background-color: #211c31;
     
   }
 
   .bannertext1 {
     float: none;
-    text-align: center;
+    text-align: right;
     height: 2rem;
     overflow: hidden;
     margin-bottom: 2.5vw;
@@ -62,11 +61,13 @@
 
   .bannertext2 {
   display: none;
+  text-align: right;
   }
 
   .bannertext2alt {
   display: block;
   height: 2rem;
+  text-align: right;
     }
 
   .bannerbutton {
