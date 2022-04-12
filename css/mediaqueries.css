@@ -13,6 +13,10 @@
     margin-bottom: auto;
    }
 
+   .navlinks {
+
+   }
+
  /* BANNER */  
  
   .logo {
@@ -24,7 +28,7 @@
    }
 
    .bannercon video {
-    position: absolute;
+    position: fixed;
     overflow: hidden;
     z-index: -1;
     margin: 0 auto;
